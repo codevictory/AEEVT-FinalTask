@@ -1,4 +1,15 @@
-%SOMA algorithm, executed in RunSoma.m
+%#######################################
+%Author: Veikko Lintujärvi
+%Date: 7.5.2018
+%WWW: http://www.veikkolintujarvi.fi/
+%
+%Code is free to use. Mention me as
+%an original author when used without
+%significant changes. Thanks!
+%
+%#######################################
+
+%SOMA algorithm, executed in RunSOMA.m
 function solution = SOMA(func)
 %setting boundaries
 if func == 1 %DeJong1

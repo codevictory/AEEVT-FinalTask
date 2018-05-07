@@ -1,9 +1,13 @@
-% disp("DeJong1");
-% disp(DE(1));
-% disp("DeJong2");
-% disp(DE(2));
-% disp("Schwefel");
-% disp(DE(3));
+%#######################################
+%Author: Veikko Lintujärvi
+%Date: 7.5.2018
+%WWW: http://www.veikkolintujarvi.fi/
+%
+%Code is free to use. Mention me as
+%an original author when used without
+%significant changes. Thanks!
+%
+%#######################################
 
 %-------------- 1st DeJong's function --------------
 

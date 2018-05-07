@@ -1,3 +1,15 @@
+%#######################################
+%Author: Veikko Lintujärvi
+%Date: 7.5.2018
+%WWW: http://www.veikkolintujarvi.fi/
+%
+%Code is free to use. Mention me as
+%an original author when used without
+%significant changes. Thanks!
+%
+%#######################################
+
+%DE algorithm, executed in RunDE.m
 function solution = DE(func)
 
 %setting boundaries
