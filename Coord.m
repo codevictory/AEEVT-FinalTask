@@ -1,7 +1,6 @@
-classdef Coord
-    %COORD Summary of this class goes here
-    %   Detailed explanation goes here
-    
+%Contains two dimensional point
+%Used also as subclass in Chrom.m
+classdef Coord 
     properties
         x;
         y;

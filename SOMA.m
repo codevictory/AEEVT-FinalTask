@@ -1,7 +1,5 @@
+%SOMA algorithm, executed in RunSoma.m
 function solution = SOMA(func)
-%SOMA Summary of this function goes here
-%for help: https://www.sfu.ca/~ssurjano/optimization.html
-
 %setting boundaries
 if func == 1 %DeJong1
     bounds = 5;
@@ -72,6 +70,7 @@ for i = 1:maxIter
             bestChrom = ii;
         end
     end
+    %Add cost of best chromosome to solution vector 
     solution(i) = pop(bestChrom).cost;
 end
 

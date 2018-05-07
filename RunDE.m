@@ -7,7 +7,7 @@
 
 %-------------- 1st DeJong's function --------------
 
-%des
+%DEs
 de1 = DE(1);
 de2 = DE(1);
 de3 = DE(1);

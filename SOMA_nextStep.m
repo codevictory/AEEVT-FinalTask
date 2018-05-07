@@ -1,7 +1,6 @@
+%takes current coordinates and best coordinates
+%returns next stepping point
 function newCoord = SOMA_nextStep(currentCoord, bestCoord, stepLength)
-    %takes current coordinates and best coordinates
-    %returns next stepping point
-
     random = rand*4;
     newCoord = currentCoord;
     

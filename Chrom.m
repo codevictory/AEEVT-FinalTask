@@ -1,14 +1,13 @@
+%Class for two dimension solutions (chromosomes)
 classdef Chrom
-    %CHROM Summary of this class goes here
     properties
-        cost;
-        coord;
+        cost;  %cost/fitness of solution
+        coord; %point
     end
     
     methods
         function obj = Chrom(x,y)
-            %CHROM Construct an instance of this class
-            obj.coord = Coord(x,y);
+            obj.coord = Coord(x,y); %Initializes with subclass Coord
         end
     end
 end

@@ -16,7 +16,7 @@ end
 
 %Algorithm parameters
 factor = 0.9; %mutation factor
-cRate = 0.5; %crossover rate
+cRate = 0.5; %crossover rate (!!! not used in code, don't change, see line 80)
 popSize = 50; %size of population
 maxIter = 2000; %maximum number of iterations
 %Max. FES 10 000
