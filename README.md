@@ -8,20 +8,20 @@ Home task #1
 Your task will be to implement classical evolutionary algorithm - DE and swarm algorithm
 SOMA/PSO together together with simple statistical (and graphical) analysis of results.
 Algorithms to implement:
-• DE/Rand/1/Bin
-• SOMA ATO / PSO (with inertia weight preferably, but not a condition)
+* DE/Rand/1/Bin
+* SOMA ATO / PSO (with inertia weight preferably, but not a condition)
 Test functions:
-• 1st DeJong function
-• 2nd DeJong function
-• Schweffel function
+* 1st DeJong function
+* 2nd DeJong function
+* Schweffel function
 
 Both algorithms must be repeated 30 times for each test function – to obtain some
 statistical background – you will calculate (from 30 final best results) Min, Max, Mean,
 Median, and Std. Dev. Values for each test function. You also have to confirm your findings
 by plotting of best solution from each iteration – i.e. convergence graph. Your task is to plot:
-• Convergence plot of all 30 runs in one graph (30 lines in 1 graph) – totally 6 plots (2
+* Convergence plot of all 30 runs in one graph (30 lines in 1 graph) – totally 6 plots (2
 algorithms x 3 functions)
-• Convergence plot of average best sol – i.e. average best solution in each iteration
+* Convergence plot of average best sol – i.e. average best solution in each iteration
 (one line) – totally 6 plots (2 algorithms x 3 functions)
 
 Take care of following:
